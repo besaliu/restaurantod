@@ -1,0 +1,25 @@
+body {
+  border: none;
+  margin: 0;
+}
+header {
+  text-align: center;
+  height: 10vh;
+  margin-bottom: 15px;
+}
+nav {
+  display: flex;
+  height: inherit;
+}
+nav > * {
+  flex: 1;
+  border: none;
+}
+button:hover{
+  background-color: lightgrey;
+  border: none;
+}
+.homepage {
+  display: flex;
+  gap: 10px;
+}
